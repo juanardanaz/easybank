@@ -1,0 +1,65 @@
+/* ========= VARIABLES ========= */
+@font-face {
+    font-family: 'Public Sans';
+    src: url('../../assets/fonts/PublicSans-Regular.woff2') format('woff2'),
+        url('../../assets/fonts/PublicSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url('../../assets/fonts/PublicSans-Light.woff2') format('woff2'),
+        url('../../assets/fonts/PublicSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url('../../assets/fonts/PublicSans-Bold.woff2') format('woff2'),
+        url('../../assets/fonts/PublicSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    /* ========= COLORS ========= */
+    /* ========= Primary ========= */
+    --dark-blue: hsl(233, 26%, 24%);
+    --lime-green: hsl(136, 65%, 51%);
+    --bright-cyan: hsl(192, 70%, 51%);
+
+    /* ========= Neutral ========= */
+    --grayish-blue: hsl(233, 8%, 62%);
+    --light-grayish-blue: hsl(220, 16%, 96%);
+    --very-light-gray: hsl(0, 0%, 98%);
+    --white: hsl(0, 0%, 100%);
+
+    /* ========= FONT and TYPOGRAPHY ========= */
+    --body-font: 'Public Sans';
+    --bigest-font-size: 2rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+
+    // Responsive Typography
+    @media screen and (min-width: 968px) {
+        --bigest-font-size: 3rem;
+        --h2-font-size: 1.75rem;
+        --h3-font-size: 1.25rem;
+        --normal-font-size: 1rem;
+        --small-font-size: .875rem;
+        --smaller-font-size: .813rem;
+    }
+
+    /* ========= Font Weight ========= */
+    --font-semi-bold: 600;
+    --font-bold: 700;
+
+}
