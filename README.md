@@ -7,6 +7,7 @@ This is a solution to the [Easybank landing page challenge on Frontend Mentor](h
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
@@ -24,7 +25,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](../easybank/src/assets/img/screenshot.jpg)
+![](./src/assets/img/screenshot.jpg)
+
+### Links
+
+- Solution URL: [https://github.com/juanardanaz/easybank](https://your-solution-url.com)
 
 
 ## My process
@@ -41,14 +46,16 @@ Users should be able to:
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Transfonter](https://transfonter.org/) - This helped me to convert font from TTF/OTF to woff2 format.
+- [Lighthouse Reporter Viewer](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=es) - Lighthouse is an open-source, automated tool for improving the performance, quality, and correctness of your web apps.
+- [CSS filter generator](https://codepen.io/sosuke/pen/Pjoqqp) - This helped me to change the color of a SVG element
+- [ScrollReveal](https://scrollrevealjs.org/) - ScrollReveal is a JavaScript library for easily animating elements as they enter/leave the viewport.
+- [Responsive Design Checker](https://responsivedesignchecker.com/) - You can discover how your website looks on a variety of different screens, including desktops, laptops, tablets, and smartphones.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@juanardanaz](https://www.frontendmentor.io/profile/juanardanaz)
+- Twitter - [@JuanArdanaz](https://www.twitter.com/JuanArdanaz)
 
 
 
