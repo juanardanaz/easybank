@@ -1,0 +1,21 @@
+/* ========= BUTTONS ========= */
+.button {
+    display: inline-block;
+    background-image: linear-gradient(to right, var(--lime-green), var(--bright-cyan));
+    color: var(--light-grayish-blue);
+    padding: 0.95rem 1.8rem;
+    border-radius: 3rem;
+    font-weight: var(--font-semi-bold);
+    transition: .3s;
+
+    &-header {
+        display: none;
+    }
+}
+
+/* For Large Devices */
+@media screen and (min-width: 968px) {
+    .button-header {
+        display: block;
+    }
+}

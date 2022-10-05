@@ -59,7 +59,22 @@
     }
 
     /* ========= Font Weight ========= */
+    --font-regular: normal;
     --font-semi-bold: 600;
     --font-bold: 700;
+
+    /* ========= Margenes ========= */
+    --mb-0-5: .5rem;
+    --mb-0-75: .75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+
+    /* ========= Z-Index ========= */
+    --z-tooltip: 10;
+    --z-fixed: 100;
+
+    /* ========= VARIABLES CSS ========= */
+    --header-height: 3rem;
 
 }
