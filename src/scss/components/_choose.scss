@@ -1,0 +1,42 @@
+/* ========= CHOOSE ========= */
+.choose {
+    background-color: var(--light-grayish-blue);
+
+    &-data {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+        padding-bottom: 4rem;
+    }
+
+    &-title {
+        color: var(--dark-blue);
+        font-size: var(--bigest-font-size);
+        font-weight: var(--font-regular);
+    }
+
+    &-description {
+        color: var(--grayish-blue);
+    }
+
+    &-services-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    &-services-photo, &-services-title, &-services-description {
+        padding-bottom: 1rem;
+    }
+
+    &-services-title {
+        color: var(--dark-blue);
+    }
+
+    &-services-description {
+        color: var(--grayish-blue);
+        line-height: 1.5;
+    }
+}

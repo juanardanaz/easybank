@@ -1,0 +1,52 @@
+/* ========= ARTICLES ========= */
+.articles {
+    background-color: var(--very-light-gray);
+
+    &-title {
+        color: var(--dark-blue);
+        font-size: var(--bigest-font-size);
+        font-weight: var(--font-regular);
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+
+    &-data-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    &-data-card {
+        background-color: var(--white);
+        overflow: hidden;
+        border-radius: 10px;
+    }
+
+    &-data-info {
+        padding: 1.5rem 1.5rem;
+    }
+
+    &-data-author, &-data-description {
+        color: var(--grayish-blue);
+    }
+
+    &-data-author {
+        font-size: 12px;
+    }
+
+    &-data-title {
+        color: var(--dark-blue);
+        font-weight: var(--font-regular);
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+
+        &:hover {
+            color: var(--lime-green);
+        }
+    }
+
+    &-data-description {
+        line-height: 1.5;
+        font-size: 14px;
+    }
+}

@@ -1,1 +1,33 @@
 /* ========= HERO ========= */
+.hero {
+    background: url('../../assets/img/bg-intro-mobile.svg') top no-repeat;
+    background-size: 100%;
+
+    &-images {
+        overflow: hidden;
+    }
+
+    &-mockups {
+        transform: translateY(-8rem);
+    }
+
+    &-data {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        transform: translateY(-5rem);
+    }
+
+    &-title {
+        color: var(--dark-blue);
+        font-size: 2.6rem;
+        text-align: center;
+        font-weight: var(--font-regular);
+    }
+
+    &-description {
+        color: var(--grayish-blue);
+        text-align: center;
+    }
+}

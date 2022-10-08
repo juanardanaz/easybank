@@ -1,0 +1,47 @@
+/* ========= FOOTER ========= */
+.footer {
+    background-color: var(--dark-blue);
+
+    &-container {
+        row-gap: 2rem;
+    }
+
+    &-social {
+        display: flex;
+        gap: 0.8rem;
+        justify-content: center;
+    }
+
+    &-social-icon:hover {
+        filter: invert(61%) sepia(87%) saturate(378%) hue-rotate(83deg) brightness(91%) contrast(97%);
+    }
+
+    &-content {
+        text-align: center;
+    }
+
+    &-logo {
+        padding-bottom: 1.5rem;
+    }
+
+    &-links {
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    &-link {
+        color: var(--light-grayish-blue);
+
+        &:hover {
+            color: var(--lime-green);
+        }
+    }
+
+    &-copy {
+        text-align: center;
+        color: var(--grayish-blue);
+        font-weight: var(--font-bold);
+        padding-top: 1.5rem;
+    }
+}
