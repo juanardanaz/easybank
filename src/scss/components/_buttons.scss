@@ -9,6 +9,11 @@
     transition: .3s;
     border: none;
 
+    &:hover {
+        background-image: linear-gradient(to right, var(--lime-green-hover), var(--bright-cyan-hover));
+        cursor: pointer;
+    }
+
     &-header {
         display: none;
     }

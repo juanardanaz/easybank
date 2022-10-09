@@ -47,6 +47,11 @@
         &:hover {
             color: var(--dark-blue);
             cursor: pointer;
+            border-bottom: 3px solid transparent;
+            border-image: linear-gradient(to right, var(--lime-green), var(--bright-cyan));
+            border-image-slice: 1;
+            width:100%;
+            padding-bottom: 23px;
         }
     }
 
