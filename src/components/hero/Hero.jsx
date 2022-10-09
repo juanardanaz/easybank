@@ -4,7 +4,7 @@ import Mockups from '../../assets/img/image-mockups.png';
 
 const Hero = () => {
   return (
-    <section className='hero section'>
+    <section className='hero section' id='hero'>
       <div className="hero-container">
         <div className="hero-images">
           <img src={Mockups} alt="mockups" className='hero-mockups'/>

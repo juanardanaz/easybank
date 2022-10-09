@@ -7,7 +7,7 @@ import Restaurant from '../../assets/img/image-restaurant.jpg';
 
 const Articles = () => {
   return (
-    <section className='articles section'>
+    <section className='articles section' id='articles'>
         <div className="articles-container container">
             <h2 className='articles-title'>Latest Articles</h2>
 

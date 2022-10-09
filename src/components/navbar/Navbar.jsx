@@ -2,6 +2,7 @@ import React from 'react';
 import Logo from '../../assets/img/logo.svg';
 import Hamburger from '../../assets/img/icon-hamburger.svg';
 import '../../scss/components/_navbar.scss';
+import {Link} from 'react-scroll';
 
 /* ========= SHOW MENU ========= */
 const showMenu = (toggleId, navId) =>{
@@ -42,19 +43,19 @@ const Navbar = () => {
             <div className="nav_menu" id="nav-menu">
                 <ul className="nav_list">
                     <li className="nav_item">
-                        <a href="#home" className="nav_link">Home</a>
+                        <Link to="hero" spy={true} smooth={true} offset={-30} duration={500} className="nav_link">Home</Link>
                     </li>
                     <li className="nav_item">
-                        <a href="#about" className="nav_link">About</a>
+                        <Link to="choose" spy={true} smooth={true} offset={-30} duration={500} className="nav_link">About</Link>
                     </li>
                     <li className="nav_item">
-                        <a href="#services" className="nav_link">Contact</a>
+                        <Link to="footer" spy={true} smooth={true} offset={50} duration={500} className="nav_link">Contact</Link>
                     </li>
                     <li className="nav_item">
-                        <a href="#contact" className="nav_link">Blog</a>
+                        <Link to="articles" spy={true} smooth={true} offset={-30} duration={500} className="nav_link">Blog</Link>
                     </li>
                     <li className="nav_item">
-                        <a href="#contact" className="nav_link">Careers</a>
+                        <Link to="footer" spy={true} smooth={true} offset={50} duration={500} className="nav_link">Careers</Link>
                     </li>
                 </ul>
             </div>
@@ -63,7 +64,9 @@ const Navbar = () => {
                 <img src={Hamburger} alt='hamburger' className='nav_hamburger'/>
             </div>
 
-            <a href="#" className='button button-header'>Request Invite</a>
+            <Link to="header" className='button button-header' spy={true} smooth={true} offset={50} duration={500}>
+                Request Invite
+            </Link>
         </nav>
     </header>
   )

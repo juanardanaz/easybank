@@ -41,8 +41,13 @@
     }
 
     &_link {
-        color: var(--dark-blue);
-        font-weight: var(--font-semi-bold);
+        color: var(--grayish-blue);
+        font-weight: var(--font-regular);
+
+        &:hover {
+            color: var(--dark-blue);
+            cursor: pointer;
+        }
     }
 
     &_toggle {
@@ -57,15 +62,8 @@
 }
 
 /* ========= MEDIA QUERIES ========= */
+/* For Medium Devices */
 @media screen and (min-width: 767px) {
-    body {
-        margin: 0;
-    }
-
-    .section {
-        padding: 6rem 0 2rem;
-    }
-
     .nav {
         height: calc(var(--header-height) + 1.5rem);
 
@@ -80,3 +78,9 @@
     }
 }
 
+/* For Large Devices */
+@media screen and (min-width: 968px) {
+    .button_header {
+        display: block;
+    }
+}

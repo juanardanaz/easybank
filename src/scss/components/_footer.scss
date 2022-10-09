@@ -35,13 +35,14 @@
 
         &:hover {
             color: var(--lime-green);
+            cursor: pointer;
         }
     }
 
     &-copy {
         text-align: center;
         color: var(--grayish-blue);
-        font-weight: var(--font-bold);
+        font-weight: var(--font-regular);
         padding-top: 1.5rem;
     }
 }

@@ -50,3 +50,33 @@
         font-size: 14px;
     }
 }
+
+/* ========= MEDIA QUERIES ========= */
+/* For Medium Devices */
+@media screen and (min-width: 576px) {
+    .articles {
+        &-data-container {
+            align-items: center;
+        }
+
+        &-data-card {
+            width: 80%;
+            height: auto;
+        }
+    }
+}
+
+/* For Medium Devices */
+@media screen and (min-width: 767px) {
+    .articles {
+        &-data-card {
+            width: 70%;
+            height: auto;
+        }
+
+        &-data-img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}

@@ -29,5 +29,39 @@
     &-description {
         color: var(--grayish-blue);
         text-align: center;
+        line-height: 1.5;
+        padding-bottom: 1rem;
+    }
+}
+
+/* ========= MEDIA QUERIES ========= */
+/* For Medium Devices */
+@media screen and (min-width: 576px) {
+    .hero {
+        &-images {
+            display: flex;
+            justify-content: center;
+        }
+
+        &-mockups {
+            width: 30rem;
+        }
+
+        &-title {
+            max-width: 20rem;
+        }
+
+        &-description {
+            max-width: 25rem;
+        }
+    }
+}
+
+/* For Medium Devices */
+@media screen and (min-width: 767px) {
+    .hero {
+        &-mockups {
+            width: 41rem;
+        }
     }
 }

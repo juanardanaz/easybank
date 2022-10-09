@@ -18,6 +18,7 @@
 
     &-description {
         color: var(--grayish-blue);
+        line-height: 1.5;
     }
 
     &-services-container {
@@ -38,5 +39,16 @@
     &-services-description {
         color: var(--grayish-blue);
         line-height: 1.5;
+    }
+}
+
+/* ========= MEDIA QUERIES ========= */
+/* For Medium Devices */
+@media screen and (min-width: 576px) {
+    .choose {
+        &-title, &-description, &-services-description {
+            max-width: 20rem;
+            margin: auto;
+        }
     }
 }

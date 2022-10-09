@@ -7,7 +7,7 @@ import Api from '../../assets/img/icon-api.svg';
 
 const Choose = () => {
   return (
-    <section className='choose section'>
+    <section className='choose section' id='choose'>
         <div className="choose-container container">
             <div className="choose-data">
                 <h2 className='choose-title'>Why choose Easybank?</h2>
