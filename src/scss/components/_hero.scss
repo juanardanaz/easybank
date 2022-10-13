@@ -65,3 +65,35 @@
         }
     }
 }
+
+/* For Large Devices */
+@media screen and (min-width: 968px) {
+    .hero {
+        background: url('../../assets/img/bg-intro-desktop.svg') right no-repeat;
+        background-size: 70%;
+
+        &-container {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &-mockups {
+            width: 30rem;
+            transform: translateY(-3rem);
+        }
+
+        &-data {
+            align-items: flex-start;
+        }
+
+        &-title, &-description {
+            text-align: left;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+}

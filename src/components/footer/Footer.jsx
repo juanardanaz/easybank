@@ -47,6 +47,11 @@ const Footer = () => {
                     <li>
                         <Link to="articles" spy={true} smooth={true} offset={-30} duration={500} className="footer-link">Blog</Link>
                     </li>
+                </ul>
+            </div>
+
+            <div className="footer-content">
+                <ul className="footer-links">
                     <li>
                         <Link to="footer" spy={true} smooth={true} offset={50} duration={500} className="footer-link">Careers</Link>
                     </li>

@@ -81,3 +81,29 @@
         }
     }
 }
+
+/* For Large Devices */
+@media screen and (min-width: 968px) {
+    .articles {
+        &-data-card {
+            width: 50%;
+            height: auto;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .articles {
+        &-title {
+            text-align: left;
+        }
+
+        &-data-container {
+            flex-direction: row;
+        }
+
+        &-data-title {
+            font-size: 18px;
+        }
+    }
+}

@@ -52,3 +52,25 @@
         }
     }
 }
+
+/* For Large Devices */
+@media screen and (min-width: 1024px) {
+    .choose {
+        &-title {
+            max-width: 33rem;
+        }
+
+        &-description {
+            text-align: left;
+            max-width: 33rem;
+        }
+
+        &-services-container {
+            flex-direction: row;
+        }
+
+        &-services-card {
+            text-align: left;
+        }
+    }
+}

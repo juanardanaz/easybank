@@ -29,3 +29,11 @@
         padding: 4rem 0 2rem;
     }
 }
+
+/* For Large Devices */
+@media screen and (min-width: 1024px) {
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
