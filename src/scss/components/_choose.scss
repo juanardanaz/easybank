@@ -56,13 +56,19 @@
 /* For Large Devices */
 @media screen and (min-width: 1024px) {
     .choose {
+        &-data {
+            transform: translateX(-19rem);
+        }
+
         &-title {
             max-width: 33rem;
+            font-size: 2rem;
         }
 
         &-description {
             text-align: left;
-            max-width: 33rem;
+            max-width: 37rem;
+            transform: translateX(120px);
         }
 
         &-services-container {

@@ -96,10 +96,18 @@
     .articles {
         &-title {
             text-align: left;
+            font-size: 2rem;
         }
 
         &-data-container {
+            flex-wrap: wrap;
+            justify-content: center;
             flex-direction: row;
+        }
+
+        &-data-card {
+            width: 35%;
+            height: auto;
         }
 
         &-data-title {

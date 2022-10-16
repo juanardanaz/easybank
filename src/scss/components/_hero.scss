@@ -1,14 +1,25 @@
 /* ========= HERO ========= */
 .hero {
-    background: url('../../assets/img/bg-intro-mobile.svg') top no-repeat;
-    background-size: 100%;
-
     &-images {
         overflow: hidden;
     }
 
     &-mockups {
         transform: translateY(-8rem);
+        z-index: var(--z-tooltip);
+    }
+
+    &-image-mobile {
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: -1
+    }
+
+    &-image-desktop {
+        display: none;
     }
 
     &-data {
@@ -47,6 +58,10 @@
             width: 30rem;
         }
 
+        &-image-mobile {
+            width: 100%;
+        }
+
         &-title {
             max-width: 20rem;
         }
@@ -69,9 +84,6 @@
 /* For Large Devices */
 @media screen and (min-width: 968px) {
     .hero {
-        background: url('../../assets/img/bg-intro-desktop.svg') right no-repeat;
-        background-size: 70%;
-
         &-container {
             display: flex;
             flex-direction: row-reverse;
@@ -82,6 +94,18 @@
         &-mockups {
             width: 30rem;
             transform: translateY(-3rem);
+        }
+
+        &-image-mobile {
+            display: none;
+        }
+
+        &-image-desktop {
+            // display: block;
+            z-index: -1;
+            position: absolute;
+            top: 0;
+            width: 70%;
         }
 
         &-data {
@@ -95,5 +119,9 @@
 }
 
 @media screen and (min-width: 1024px) {
-
+    .hero {
+        &-container {
+            gap: 1rem;
+        }
+    }
 }

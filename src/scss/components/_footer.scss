@@ -3,7 +3,7 @@
     background-color: var(--dark-blue);
 
     &-container {
-        row-gap: 2rem;
+        row-gap: 1rem;
     }
 
     &-social {
@@ -61,5 +61,14 @@
         &-container {
             column-gap: 3rem;
         }
+
+        &-links {
+            align-items: flex-start;
+        }
+
+        &-copy {
+            text-align: left;
+        }
+
     }
 }
