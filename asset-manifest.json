@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/easybank/static/css/main.40a95934.css",
-    "main.js": "/easybank/static/js/main.651f5014.js",
-    "static/media/image-currency.jpg": "/easybank/static/media/image-currency.1b385bf9f62bf25ef22d.jpg",
+    "main.css": "/easybank/static/css/main.9a7bf69a.css",
+    "main.js": "/easybank/static/js/main.7f415f4d.js",
+    "static/media/image-currency.jpg": "/easybank/static/media/image-currency.c8e933e2b41df86f6977.jpg",
     "static/media/image-restaurant.jpg": "/easybank/static/media/image-restaurant.1951b57675babfd83c6c.jpg",
     "static/media/image-mockups.png": "/easybank/static/media/image-mockups.48d35b175fe3d36de4ee.png",
     "static/media/PublicSans-Bold.woff": "/easybank/static/media/PublicSans-Bold.5a6d99b6302d1371e1a4.woff",
@@ -18,7 +18,8 @@
     "static/media/logo-footer.svg": "/easybank/static/media/logo-footer.40be181bce3d2098303380d499d1ae7f.svg",
     "static/media/logo.svg": "/easybank/static/media/logo.4d7cebc59950e27d6f943b4c63129d81.svg",
     "static/media/icon-budgeting.svg": "/easybank/static/media/icon-budgeting.ad7169975ea1eda87072ea0325a8204a.svg",
-    "static/media/bg-intro-mobile.svg": "/easybank/static/media/bg-intro-mobile.c2ed38d05001e62c1c09.svg",
+    "static/media/bg-intro-desktop.svg": "/easybank/static/media/bg-intro-desktop.8be308fd4ce79bd32a09ec5437774701.svg",
+    "static/media/bg-intro-mobile.svg": "/easybank/static/media/bg-intro-mobile.c2ed38d05001e62c1c09a9cbc976c741.svg",
     "static/media/icon-online.svg": "/easybank/static/media/icon-online.b0622b15741418e9efe3805d1b2ac26b.svg",
     "static/media/icon-instagram.svg": "/easybank/static/media/icon-instagram.54d3962efa2aa6085b776d1816557a6a.svg",
     "static/media/icon-pinterest.svg": "/easybank/static/media/icon-pinterest.45264b1d1cdf7f0c420d573853779f7b.svg",
@@ -27,11 +28,11 @@
     "static/media/icon-youtube.svg": "/easybank/static/media/icon-youtube.7d6960fbb0c4831f7c667012f0b102d2.svg",
     "static/media/icon-facebook.svg": "/easybank/static/media/icon-facebook.1e9b33385e6dfe7a61acbff13373209c.svg",
     "static/media/icon-hamburger.svg": "/easybank/static/media/icon-hamburger.b0d311feac968ee5feab7333de091d7f.svg",
-    "main.40a95934.css.map": "/easybank/static/css/main.40a95934.css.map",
-    "main.651f5014.js.map": "/easybank/static/js/main.651f5014.js.map"
+    "main.9a7bf69a.css.map": "/easybank/static/css/main.9a7bf69a.css.map",
+    "main.7f415f4d.js.map": "/easybank/static/js/main.7f415f4d.js.map"
   },
   "entrypoints": [
-    "static/css/main.40a95934.css",
-    "static/js/main.651f5014.js"
+    "static/css/main.9a7bf69a.css",
+    "static/js/main.7f415f4d.js"
   ]
 }
