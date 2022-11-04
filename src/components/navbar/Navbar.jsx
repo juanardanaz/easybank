@@ -46,19 +46,19 @@ function Navbar() {
                 <div className={!nav ? 'hidden' : 'nav_mobile_menu'}>
                     <ul className='nav_mobile_container'>
                         <li className="nav_mobile_item">
-                            <a href="#hero" className="nav_mobile_link">Home</a>
+                            <a href="#hero" className="nav_mobile_link" onClick={handleClick}>Home</a>
                         </li>
                         <li className="nav_mobile_item">
-                            <a href="#choose" className="nav_mobile_link">About</a>
+                            <a href="#choose" className="nav_mobile_link" onClick={handleClick}>About</a>
                         </li>
                         <li className="nav_mobile_item">
-                            <a href="#footer" className="nav_mobile_link">Contact</a>
+                            <a href="#footer" className="nav_mobile_link" onClick={handleClick}>Contact</a>
                         </li>
                         <li className="nav_mobile_item">
-                            <a href="#articles" className="nav_mobile_link">Blog</a>
+                            <a href="#articles" className="nav_mobile_link" onClick={handleClick}>Blog</a>
                         </li>
                         <li className="nav_mobile_item">
-                            <a href="#footer" className="nav_mobile_link">Careers</a>
+                            <a href="#footer" className="nav_mobile_link" onClick={handleClick}>Careers</a>
                         </li>
                     </ul>
                 </div>
