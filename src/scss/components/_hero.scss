@@ -1,8 +1,6 @@
 /* ========= HERO ========= */
 .hero {
-    &-images {
-        overflow: hidden;
-    }
+    overflow: hidden;
 
     &-mockups {
         transform: translateY(-8rem);
@@ -91,9 +89,16 @@
             justify-content: center;
         }
 
+        &-images {
+            overflow: hidden;
+        }
+
         &-mockups {
-            width: 30rem;
+            width: 27rem;
             transform: translateY(-3rem);
+            position: absolute;
+            top: 1rem;
+            right: 0rem;
         }
 
         &-image-mobile {
@@ -101,11 +106,8 @@
         }
 
         &-image-desktop {
-            // display: block;
+            display: block;
             z-index: -1;
-            position: absolute;
-            top: 0;
-            width: 70%;
         }
 
         &-data {
@@ -122,6 +124,27 @@
     .hero {
         &-container {
             gap: 1rem;
+            padding: 6rem 0 2rem;
+        }
+
+        &-mockups {
+            width: 40rem;
+            transform: translateY(-3rem);
+            position: absolute;
+            top: 1rem;
+            right: 4rem;
+        }
+
+        &-image-desktop {
+            position: absolute;
+            top: 0;
+            width: 70%;
+        }
+
+        &-data {
+            position: relative;
+            left: -17rem;
+            top: 4rem;
         }
     }
 }

@@ -2,6 +2,10 @@
 .articles {
     background-color: var(--very-light-gray);
 
+    &-container {
+        padding-top: 1rem;
+    }
+
     &-title {
         color: var(--dark-blue);
         font-size: var(--bigest-font-size);
@@ -10,16 +14,15 @@
         padding-bottom: 2rem;
     }
 
-    &-data-container {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-    }
-
     &-data-card {
+        display: grid;
+        row-gap: 1rem;
         background-color: var(--white);
+        box-shadow: 0 2px 6px hsla(var(--hue), 100%, 15%, 0.15);
+        // padding: 2rem 1.5rem;
+        border-radius: 0.5rem;
+        text-align: left;
         overflow: hidden;
-        border-radius: 10px;
     }
 
     &-data-info {
@@ -56,38 +59,19 @@
 /* For Medium Devices */
 @media screen and (min-width: 576px) {
     .articles {
-        &-data-container {
+        &-container {
             align-items: center;
-        }
-
-        &-data-card {
-            width: 80%;
-            height: auto;
+            grid-template-columns: repeat(2, 1fr);
         }
     }
 }
 
-/* For Medium Devices */
-@media screen and (min-width: 767px) {
-    .articles {
-        &-data-card {
-            width: 70%;
-            height: auto;
-        }
-
-        &-data-img {
-            width: 100%;
-            height: auto;
-        }
-    }
-}
 
 /* For Large Devices */
 @media screen and (min-width: 968px) {
     .articles {
-        &-data-card {
-            width: 50%;
-            height: auto;
+        &-container {
+            grid-template-columns: repeat(4, 1fr);
         }
     }
 }
@@ -95,19 +79,9 @@
 @media screen and (min-width: 1024px) {
     .articles {
         &-title {
-            text-align: left;
             font-size: 2rem;
-        }
-
-        &-data-container {
-            flex-wrap: wrap;
-            justify-content: center;
-            flex-direction: row;
-        }
-
-        &-data-card {
-            width: 35%;
-            height: auto;
+            position: relative;
+            left: -23rem;
         }
 
         &-data-title {
