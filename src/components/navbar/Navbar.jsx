@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {FaBars, FaTimes} from 'react-icons/fa';
+import { VscMenu, VscChromeClose } from "react-icons/vsc";
 import Logo from '../../assets/img/logo.svg';
 import '../../scss/components/_navbar.scss';
 import {Link} from 'react-scroll';
@@ -39,7 +39,7 @@ function Navbar() {
 
                 {/* Hamburger */}
                 <div onClick={handleClick} className='nav-hamburger'>
-                    {!nav ? <FaBars /> : <FaTimes />}
+                    {!nav ? <VscMenu /> : <VscChromeClose />}
                 </div>
 
                 {/* Mobile Menu */}

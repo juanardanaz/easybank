@@ -52,6 +52,7 @@ Users should be able to:
 - [CSS filter generator](https://codepen.io/sosuke/pen/Pjoqqp) - This helped me to change the color of a SVG element
 - [ScrollReveal](https://scrollrevealjs.org/) - ScrollReveal is a JavaScript library for easily animating elements as they enter/leave the viewport.
 - [Responsive Design Checker](https://responsivedesignchecker.com/) - You can discover how your website looks on a variety of different screens, including desktops, laptops, tablets, and smartphones.
+- [CSS Gradient Generator](https://cssgradient.io/) - As a free css gradient generator tool, this website lets you create a colorful gradient background for your website, blog, or social media profile.
 
 ## Author
 
