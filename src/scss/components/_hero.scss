@@ -89,9 +89,9 @@
             justify-content: center;
         }
 
-        &-images {
-            overflow: hidden;
-        }
+        // &-images {
+        //     // overflow: hidden;
+        // }
 
         &-mockups {
             width: 27rem;
@@ -108,10 +108,18 @@
         &-image-desktop {
             display: block;
             z-index: -1;
+            transform: translate(226px, -50px);
+        }
+
+        &-title {
+            max-width: 40rem;
         }
 
         &-data {
             align-items: flex-start;
+            position: relative;
+            top: 4rem;
+            left: 4rem;
         }
 
         &-title, &-description {
@@ -125,26 +133,48 @@
         &-container {
             gap: 1rem;
             padding: 6rem 0 2rem;
+            overflow: hidden;
         }
 
         &-mockups {
-            width: 40rem;
+            width: 34rem;
             transform: translateY(-3rem);
             position: absolute;
-            top: 1rem;
-            right: 4rem;
+            top: 3rem;
+            right: 1rem;
         }
 
         &-image-desktop {
-            position: absolute;
-            top: 0;
-            width: 70%;
+            position: fixed;
+            top: 62px;
+            width: 72%;
+            right: 3rem;
         }
 
         &-data {
             position: relative;
             left: -17rem;
             top: 4rem;
+        }
+
+        &-title {
+            max-width: 20rem;
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero {
+        &-mockups {
+            right: 10rem;
+            width: 38rem;
+            top: 1.5rem;
+        }
+
+        &-image-desktop {
+            right: -3rem;
+            top: -10rem;
+            width: 65%;
         }
     }
 }
